@@ -1,0 +1,33 @@
+# Project-specific
+old/
+.chainguard-old/
+
+# Go binaries and build output
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+LearningLabsGuardener
+
+# Test binary and coverage
+*.test
+*.out
+coverage.*
+
+# Go workspace
+go.work
+go.work.sum
+
+# Dependency directory (uncomment if you vendor)
+# vendor/
+
+# Environment / secrets
+.env
+*.local
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
